@@ -1,0 +1,32 @@
+.home{
+    position: relative;
+    .heading{
+        position: relative;
+        width: 100%;
+        height:700px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .heading-contain{
+        position: absolute;
+        z-index: 100;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        button{
+            margin:10px 10px;
+            border-radius:3px;
+            background-color: rgba(94, 170, 67, 0.71);
+            color: white;
+            font-weight: bold;
+            border: none;
+        }
+        h1{
+            color: white;
+            font-weight: lighter;
+            text-align: center;
+            margin-bottom: 18px;
+        }
+    }
+}

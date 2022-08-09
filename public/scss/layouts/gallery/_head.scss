@@ -1,0 +1,16 @@
+.gallery-head{
+    height:500px;
+    position: relative;
+    background-attachment:fixed;
+    div{
+        color:rgba(255, 255, 255, 0.752);
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        text-align: center;
+        h1{
+            font-size: 45px;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+#blog-header {
+    height: 400px;
+    background-image: url("../img/bl1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    .container {
+        position: absolute;
+        top: 60%;
+        left: 0px;
+        width: 100%;
+        padding: 0px 50px;
+    }
+    .container h1,
+    h6 {
+        color: white;
+    }
+    .container h1 {
+        font-weight: bold;
+        font-size: 50px;
+    }
+    .container h6 {
+        margin-top: 30px;
+    }
+}

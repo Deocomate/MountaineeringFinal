@@ -1,0 +1,23 @@
+.home{
+    .dangers{
+        margin-top: 50px;
+        background-color: rgba(222, 184, 135, 0.153);
+        padding: 60px 0px;
+        img{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 5px;
+            object-position: center center;
+        }
+        .dangers-content-contain{
+            h3{
+                color: rgb(191, 111, 7);
+            }
+            height:300px;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+        }
+    }
+}

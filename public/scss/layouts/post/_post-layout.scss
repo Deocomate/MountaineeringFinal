@@ -1,0 +1,12 @@
+@media screen and (min-width:768px) {
+    main.post{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width:992px){
+    .post-contain{
+        width: 90%;
+        margin: 0 auto;
+    }
+}

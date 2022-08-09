@@ -1,0 +1,53 @@
+.contacts{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    h2{
+        font-weight: bold;
+        font-size:30px;
+        margin-bottom: 13px;
+        + p {
+            position: relative;
+            &:after{
+                content: "";
+                position: absolute;
+                width: 25px;
+                height: 6px;
+                border-radius: 4px;
+                left: auto;
+                top: 50%;
+                transform:translateY(-10%);
+                transition: all;
+                background-color: rgb(55, 156, 244);
+                margin-left: 20px;
+            }
+        }
+    }
+    p{
+        font-weight: 500;
+        color: gray;
+        position: relative;
+        
+    }
+    .d-flex{
+        margin-bottom: 7px;
+        b,p{
+            margin: 0px;
+            white-space: nowrap;
+        }
+        b{
+            margin-right: 5px;
+        }
+        p{
+            margin-left: 5px;
+        }
+        hr {
+            margin: 18px 5px 5px 5px;
+            width: 90%;
+            margin-top: 16px;
+            border-top: 1px dotted;
+            background: none;
+            opacity: .7;
+        }
+    }
+}

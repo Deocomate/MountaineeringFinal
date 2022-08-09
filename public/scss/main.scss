@@ -1,0 +1,27 @@
+@import './base/reset';
+@import './helpers/mixin';
+
+@import './layouts/header';
+@import './layouts/footer';
+@import './layouts/contact-link';
+@import './layouts/blogs/head';
+@import './layouts/blogs/item';
+@import './layouts/blogs/recents';
+@import './layouts/contact/map';
+@import './layouts/contact/write-us';
+@import './layouts/contact/contacts';
+@import './layouts/post/comment';
+@import './layouts/post/post-heading';
+@import './layouts/post/post-layout';
+@import './layouts/gallery/head';
+@import './layouts/gallery/main';
+@import './layouts/gallery/categories';
+@import './layouts/gallery/tags';
+@import './layouts/gallery/gallery';
+@import './layouts/home/heading';
+@import './layouts/home/origin';
+@import './layouts/home/type';
+@import './layouts/home/skill';
+@import './layouts/home/dangers';
+@import './layouts/switch';
+
